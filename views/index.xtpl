@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS-SDK</title>
+    <!-- 引入weiui的css样式 -->
+    <!-- '//' 是协议的一种简写： http https -->
+    <link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/2.3.0/weui.css">
 </head>
 <body>
     <h2>微信公众号开发测试</h2>
-    <button class="paizhao">拍照测颜值</button>
+    <button class="paizhao weui-btn weui-btn_primary">拍照测颜值</button>
 
     <button class="startRecord">开始录音</button>
     <button class="stopRecord">停止录音</button>

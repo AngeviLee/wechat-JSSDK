@@ -4,22 +4,22 @@
     "store": "FileStore_C:\\Users\\Administrator\\Desktop\\wxprocess\\wechat-jssdk\\wechat-JSSDK\\wechat-info.json"
   },
   "globalToken": {
-    "count": 1,
-    "modifyDate": "2020-04-26T10:38:00.681Z",
-    "accessToken": "32_Xl1PsfCJo77o_3upJvPoCVBSIFqiWNIWnURvZxJUpffS-S2WbjUN9h83LOPrSLHaF9-gmfPjgm5xJ6eltru6ovt41GPBRXF5kb8tq6dG5ecY0wwPuDW2icSKP6fILmBVREyoP5wH7FAHuowCRIAhABAFWO",
-    "jsapi_ticket": "kgt8ON7yVITDhtdwci0qeZRegZ11iY33KwNSw2v5kYrEoD84PtxviAcRZvcUirKoV_MZBWJOXMM5G4A1WLFXaQ"
+    "count": 3,
+    "modifyDate": "2020-04-26T14:19:29.466Z",
+    "accessToken": "32_-S9e2OdQYygJxC5Kzysjxis09gu04DGIEAohXRb-MP99OQOYoi63AiazNVn2bvKZFo2mWTee3QJ1nmesBQz8OGFsCTyYI3m3twZ0n3w_GjISKgJHLfoO7as7dfrzeVi9y5E-5l2P52KIH18AJINfADAQPU",
+    "jsapi_ticket": "kgt8ON7yVITDhtdwci0qeZRegZ11iY33KwNSw2v5kYpYuU_uMbBdQVNgIi16AGU7yITC2MFw-bHsWzAtj_4DHg"
   },
   "urls": {
     "http://localhost:3000/": {
-      "jsapi_ticket": "kgt8ON7yVITDhtdwci0qeZRegZ11iY33KwNSw2v5kYrEoD84PtxviAcRZvcUirKoV_MZBWJOXMM5G4A1WLFXaQ",
-      "nonceStr": "3ig6f43uvio",
-      "timestamp": "1587901333",
+      "jsapi_ticket": "kgt8ON7yVITDhtdwci0qeZRegZ11iY33KwNSw2v5kYpYuU_uMbBdQVNgIi16AGU7yITC2MFw-bHsWzAtj_4DHg",
+      "nonceStr": "yfdfiovvp",
+      "timestamp": "1587910769",
       "url": "http://localhost:3000/",
-      "signature": "19b82e9cf5ce256451b0a7b4251a399c5a668a72",
-      "accessToken": "32_Xl1PsfCJo77o_3upJvPoCVBSIFqiWNIWnURvZxJUpffS-S2WbjUN9h83LOPrSLHaF9-gmfPjgm5xJ6eltru6ovt41GPBRXF5kb8tq6dG5ecY0wwPuDW2icSKP6fILmBVREyoP5wH7FAHuowCRIAhABAFWO",
+      "signature": "9cd74f41888dda43fcc85541ba1c91dda715cd26",
+      "accessToken": "32_-S9e2OdQYygJxC5Kzysjxis09gu04DGIEAohXRb-MP99OQOYoi63AiazNVn2bvKZFo2mWTee3QJ1nmesBQz8OGFsCTyYI3m3twZ0n3w_GjISKgJHLfoO7as7dfrzeVi9y5E-5l2P52KIH18AMRUfADACHK",
       "signatureName": "http://localhost:3000/",
       "createDate": "2020-04-26T11:42:13.928Z",
-      "modifyDate": "2020-04-26T11:42:13.928Z",
+      "modifyDate": "2020-04-26T14:19:29.400Z",
       "updated": true
     }
   },
