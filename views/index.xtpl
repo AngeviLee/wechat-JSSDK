@@ -9,6 +9,9 @@
     <h2>微信公众号开发测试</h2>
     <button class="paizhao">拍照测颜值</button>
 
+    <button class="startRecord">开始录音</button>
+    <button class="stopRecord">停止录音</button>
+
     <!-- 使用微信提供的高级功能，需要 JS-SDK 支持 -->
     <script src="/libs/jweixin-1.6.0.js"></script>
 
@@ -25,7 +28,9 @@
             // 必填，需要使用的JS接口列表
             jsApiList: [
                 // 所有用到的高级功能对应的方法必须记录在此处
-                'chooseImage'
+                'chooseImage',
+                'startRecord',
+                'stopRecord'
             ]
         });
 
@@ -39,11 +44,33 @@
                     sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
                     success(res) {
                         // res.localIds 相当于图片的地址
+                        // 可以赋值给 img 标签的 src 属性
+                        // 即可展示刚刚选取|拍照获得的照片
                         var localIds = res.localIds[0]
                     }
                 })
             })
+
+            // 2. 开始录音
+            var startRecord = document.querySelector('.startRecord')
+            startRecord.addEventListener('click', function() {
+                wx.startRecord()
+            })
+
+            // 3. 结束录音
+            var stopRecord = document.querySelector('.stopRecord')
+            stopRecord.addEventListener('click', function() {
+                wx.stopRecord({
+                    success(res) {
+                        // 相当于音频的地址
+                        // 可以赋值给 audio 的 src 属性
+                        var localId = res.localId
+                    }
+                })
+            })
+
         });
+
         // 3. 验证失败调用 error 
         wx.error(function(res){
         });
