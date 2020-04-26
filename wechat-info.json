@@ -1,0 +1,16 @@
+{
+  "wechatConfig": {
+    "appId": "wx2938c8d29780dc1d",
+    "store": "FileStore_C:\\Users\\Administrator\\Desktop\\wxprocess\\wechat-jssdk\\wechat-JSSDK\\wechat-info.json"
+  },
+  "globalToken": {
+    "count": 1,
+    "modifyDate": "2020-04-26T10:38:00.681Z",
+    "accessToken": "32_Xl1PsfCJo77o_3upJvPoCVBSIFqiWNIWnURvZxJUpffS-S2WbjUN9h83LOPrSLHaF9-gmfPjgm5xJ6eltru6ovt41GPBRXF5kb8tq6dG5ecY0wwPuDW2icSKP6fILmBVREyoP5wH7FAHuowCRIAhABAFWO",
+    "jsapi_ticket": "kgt8ON7yVITDhtdwci0qeZRegZ11iY33KwNSw2v5kYrEoD84PtxviAcRZvcUirKoV_MZBWJOXMM5G4A1WLFXaQ"
+  },
+  "urls": {},
+  "oauth": {},
+  "card": {},
+  "mp": {}
+}

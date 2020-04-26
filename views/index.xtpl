@@ -10,5 +10,20 @@
 
     <!-- 使用微信提供的高级功能，需要 JS-SDK 支持 -->
     <script src="/libs/jweixin-1.6.0.js"></script>
+
+    <!-- 当引入JS-SDK 成功后，便可以拥有一个 wx 的全局对象 -->
+    <!-- wx 这个对象下开放了很多的方法，通过带哦哦用这些方法来使用 JS-SDK 的高级功能 -->
+    <script>
+        wx.config({
+            debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+            appId: '{{ appId }}', // 必填，公众号的唯一标识-开发阶段使用测试账号的appID
+            timestamp: '{{ timestamp }}', // 必填，生成签名的时间戳
+            nonceStr: '{{nonceStr}}', // 必填，生成签名的随机串
+            signature: '{{signature}}',// 必填，签名
+            jsApiList: [] // 必填，需要使用的JS接口列表
+        });
+    </script>    
+
+
 </body>
 </html>
