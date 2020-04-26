@@ -16,6 +16,9 @@ app.set('view engine', 'xtpl')
 // 配置模板目录
 app.set('views', path.join(__dirname, 'views'))
 
+// 配置静态资源目录
+app.use(express.static(path.join(__dirname, 'public')))
+
 // 服务器定义相关路由来等待浏览器的请求
 app.get('/', (req, res) => {
     // res.send('Hello Word!')

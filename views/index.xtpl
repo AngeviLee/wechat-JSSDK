@@ -7,5 +7,8 @@
 </head>
 <body>
     <h2>微信公众号开发测试</h2>
+
+    <!-- 使用微信提供的高级功能，需要 JS-SDK 支持 -->
+    <script src="/libs/jweixin-1.6.0.js"></script>
 </body>
 </html>
