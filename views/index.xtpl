@@ -30,7 +30,8 @@
                 // 所有用到的高级功能对应的方法必须记录在此处
                 'chooseImage',
                 'startRecord',
-                'stopRecord'
+                'stopRecord',
+                'updateAppMessageShareData'
             ]
         });
 
@@ -67,6 +68,17 @@
                         var localId = res.localId
                     }
                 })
+            })
+
+            // 不用结合dom元素使用的接口-分享
+            wx.updateAppMessageShareData({ 
+                title: '微信公众哈', // 分享标题
+                desc: '一起玩游戏', // 分享描述
+                link: 'http://localhost:3000/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587914245081&di=4dccb4bfb6fa7f6713f4955f56033d01&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201809%2F30%2F20180930170803_mwbin.thumb.700_0.jpg', // 分享图标
+                success: function () {
+                // 设置成功
+                }
             })
 
         });
